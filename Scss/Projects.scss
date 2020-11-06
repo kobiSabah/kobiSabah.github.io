@@ -1,0 +1,43 @@
+@import "Base settings/setup";
+P{
+    font-size: $font-size-normal;
+}
+img{
+    width: 4vw;
+}
+a{
+    font-size: $font-size-small;
+}
+
+.project{
+    text-align: center;
+    align-content: center;
+    font-size: $font-size-largest;
+    & blockquote{
+
+        font-size: $font-size-small;
+        margin-top: $space-unit-normal;
+        //margin: $space-unit-largest 4vw 0 4vw ;
+        text-align: left;
+        display: inline-block;
+        line-height: $line-height-normal;
+    }
+
+    & mark{
+        color:$color-light-green;
+        font-size: $font-size-small;
+    }
+}
+
+.mask-detection{
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.memory-game{
+    animation-name:shake ;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+

@@ -1,0 +1,38 @@
+@import "Base settings/setup";
+
+
+.contact{
+
+        text-align: center;
+        align-content: center;
+        font-size: $font-size-largest;
+        & blockquote{
+            margin: $space-unit-largest * 2 5vw 0 5vw;
+            font-size: $font-size-normal;
+            //margin-top: $space-unit-largest * 2;
+            text-align: left;
+            display: inline-block;
+            line-height: $line-height-larger;
+        }
+    
+        & mark{
+            font-size: $font-size-normal;
+            color:$color-light-green;
+        }
+}
+
+.contact-img{
+    width: 100%;
+    height: auto;
+}
+
+.profile-img{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 55%;
+    margin-bottom: 40px;
+}
+
+a{
+    font-size: $font-size-normal;
+}

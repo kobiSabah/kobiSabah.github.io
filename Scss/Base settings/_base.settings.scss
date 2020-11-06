@@ -1,0 +1,43 @@
+//  About:
+//      Base settings for the website
+//
+ 
+@import "font.settings";
+
+
+  //////////////
+ // Spaceing //
+//////////////
+$base-space-unit: 2vw;
+
+$space-unit-smaller: $base-space-unit / 3;
+$space-unit-small: $base-space-unit / 2;
+$space-unit-normal: $base-space-unit;
+$space-unit-large: $base-space-unit * 1.5;
+$space-unit-larger: $base-space-unit * 2;
+$space-unit-largest: $base-space-unit * 3;
+
+
+  /////////////////
+ // Header size //
+/////////////////
+
+$header-size-1: $base-font-size * 1.5;
+$header-size-2: $base-font-size * 1.3;
+$header-size-3: $base-font-size * 1.2;
+$header-size-4: $base-font-size;
+$header-size-5: $base-font-size *0.9;
+$header-size-6: $base-font-size * 0.8;
+
+
+
+  //////////////////
+ // Line Height  //
+//////////////////
+ $base-line-height: $base-space-unit;
+
+ $line-height-smallest: $base-space-unit / 2;
+ $line-height-small: $base-space-unit / 1.5;
+ $line-height-normal: $base-space-unit;
+ $line-height-large: $base-space-unit * 1.5;
+ $line-height-larger: $base-space-unit * 2;

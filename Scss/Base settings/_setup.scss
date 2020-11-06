@@ -1,0 +1,124 @@
+//  About:
+//       Marge all the base pages for setting up the home-page  
+//          of the web-site.
+
+@import "base.settings";
+@import "base.colors";
+@import "base.mixins.scss";
+@import "base.animation";
+
+
+*{
+
+    // Setting up basic for all the web-site
+    white-space: $space-unit-normal;
+    line-height: $base-line-height;
+    background: $color-light-black;
+    color: $color-light-white;
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+section{
+    display: grid;
+    //grid-template-columns: 1fr;
+    //grid-template-rows: repeat(2,1fr);
+    grid-auto-rows: minmax(80px, auto);
+    place-items: center;
+    height: 100vh;
+}
+
+mark{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-size: $font-size-largest;
+    margin-bottom: 2%;
+    //padding-top: $space-unit-largest;
+
+    color:$color-light-green;
+}
+
+
+// Header font weight 
+h1, h2, h3, h4, h5, h6{font-weight: $font-weight-header;}
+
+// Header size
+h1{font-size: $header-size-1;}
+h2{font-size: $header-size-2;}
+h3{font-size: $header-size-3;}
+h4{font-size: $header-size-4;}
+h5{font-size: $header-size-5;}
+h6{font-size: $header-size-6;}
+
+
+a{
+    // Setup text decoration font size and spaceing between words 
+    text-decoration: none;
+    margin-right: $space-unit-normal;
+    font-size: $font-size-large; 
+    color:$color-light-white;
+    transition: 1s;
+
+    &:hover{
+        color: $color-light-green;
+    }
+}
+
+
+
+
+  ////////////////////////
+ // Bloackquote setup  //
+////////////////////////
+
+blockquote{
+    border-left: 2px solid $color-light-green;
+    padding-left: $space-unit-normal;
+}
+
+
+  //////////////////////
+ //  Navigation bar  //
+//////////////////////
+
+.top-menu-bar {
+    // Keep the navigation bar at the top
+    top: 0px;
+    position: fixed;
+    z-index: 1000;
+    // Fixed the container width
+    width: 100%;
+
+    // Setup position and bg color
+    padding-top: 30px;
+    background: $color-light-black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    }    
+    
+.logo >*{
+    text-align: center;
+    width: 5vw;
+}
+
+.menu-bar {
+
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    text-align: start;
+    align-content: start;
+
+    & a{
+        font-size: $font-size-large; 
+    }
+}
+
+.nav{
+    list-style-type: none;
+}
+
+

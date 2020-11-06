@@ -1,0 +1,95 @@
+@import "Base settings/setup";
+
+
+  ////////////////////////////
+ //  Eat sleep code repeat //
+////////////////////////////
+
+$russian-violet: rgba(56, 0, 54, 1);
+$international-orange-engineering: rgba(186, 18, 0, 1);
+$saffron: rgba(248, 197, 55, 1);
+$sapphire-blue: rgba(26, 101, 158, 1);
+$medium-turquoise: rgba(0, 207, 193, 1);
+.eat >*{
+    animation-name:blink_green;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.sleep >*{
+    animation-name:blink_red;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.code>*{
+    animation-name:blink_yellow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.repeat>*{
+    animation-name:blink_blue;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.welcome{
+    display: grid;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    grid-gap:40px;
+    h1{
+        font-size: $header-size-1*1.5;
+    }
+}
+
+.introduce{
+
+    text-align: center;
+    font-size: $font-size-largest;
+    .name{
+        color:$color-light-green;
+    }
+}
+
+.about{
+    text-align: center;
+    align-content: center;
+    font-size: $font-size-largest;
+    & blockquote{
+
+        font-size: $font-size-normal;
+        margin-top: $space-unit-largest * 2;
+        text-align: left;
+        display: inline-block;
+        line-height: $line-height-larger;
+    }
+
+    & span{
+        color:$color-light-green;
+    }
+}
+
+.skills{
+    & p{
+        position: flex;
+        align-items: center;
+        text-align: center;
+        font-size: $font-size-largest;
+        margin-bottom: 2%;
+        padding-top: 2%;
+    }
+
+    & img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        
+        }
+}
+
+
