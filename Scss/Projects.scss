@@ -6,25 +6,29 @@ img{
     width: 4vw;
 }
 a{
-    font-size: $font-size-small;
+    font-size: $font-size-normal;
 }
 
 .project{
+
     text-align: center;
     align-content: center;
-    font-size: $font-size-largest;
     & blockquote{
 
-        font-size: $font-size-small;
-        margin-top: $space-unit-normal;
+        font-size: $font-size-normal;
+        margin-top: $space-unit-largest * 2;
         text-align: left;
         display: inline-block;
-        line-height: $line-height-normal;
+        line-height: $line-height-larger;
     }
 
     & mark{
         color:$color-light-green;
-        font-size: $font-size-small;
+        font-size: $font-size-large
+    }
+
+    & p{
+        font-size: $font-size-largest;
     }
 }
 
