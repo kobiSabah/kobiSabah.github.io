@@ -42,20 +42,8 @@ mark{
 }
 
 
-// Header font weight 
-h1, h2, h3, h4, h5, h6{font-weight: $font-weight-header;}
-
-// Header size
-h1{font-size: $header-size-1;}
-h2{font-size: $header-size-2;}
-h3{font-size: $header-size-3;}
-h4{font-size: $header-size-4;}
-h5{font-size: $header-size-5;}
-h6{font-size: $header-size-6;}
-
-
 a{
-    // Setup text decoration font size and spaceing between words 
+    // Setup text decoration font size and spacing between words 
     text-decoration: none;
     margin-right: $space-unit-normal;
     font-size: $font-size-large; 
@@ -71,7 +59,7 @@ a{
 
 
   ////////////////////////
- // Bloackquote setup  //
+ // Blockquote setup  //
 ////////////////////////
 
 blockquote{

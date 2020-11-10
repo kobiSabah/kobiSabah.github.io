@@ -4,8 +4,64 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+h1 {
+  font-size: 3.6vw;
+}
+
+h2 {
+  font-size: 2.34vw;
+}
+
+h3 {
+  font-size: 2.16vw;
+}
+
+h4 {
+  font-size: 1.8vw;
+}
+
+h5 {
+  font-size: 1.62vw;
+}
+
+h6 {
+  font-size: 1.44vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-size: 3.6vw;
+}
+
+h2 {
+  font-size: 2.34vw;
+}
+
+h3 {
+  font-size: 2.16vw;
+}
+
+h4 {
+  font-size: 1.8vw;
+}
+
+h5 {
+  font-size: 1.62vw;
+}
+
+h6 {
+  font-size: 1.44vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
 
 @keyframes shake {
@@ -265,34 +321,6 @@ mark {
   color: #00b8a5;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-}
-
-h1 {
-  font-size: 2.7vw;
-}
-
-h2 {
-  font-size: 2.34vw;
-}
-
-h3 {
-  font-size: 2.16vw;
-}
-
-h4 {
-  font-size: 1.8vw;
-}
-
-h5 {
-  font-size: 1.62vw;
-}
-
-h6 {
-  font-size: 1.44vw;
-}
-
 a {
   text-decoration: none;
   margin-right: 2vw;
@@ -372,7 +400,7 @@ blockquote {
   grid-gap: 40px;
 }
 .welcome h1 {
-  font-size: 4.05vw;
+  font-size: 5.4vw;
 }
 
 .introduce {

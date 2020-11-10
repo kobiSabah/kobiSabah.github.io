@@ -30,13 +30,38 @@ $font-size-largest: $base-font-size * 2.5;
 
 
   /////////////////
+ // Header size //
+/////////////////
+
+$header-size-1: $base-font-size * 2;
+$header-size-2: $base-font-size * 1.3;
+$header-size-3: $base-font-size * 1.2;
+$header-size-4: $base-font-size;
+$header-size-5: $base-font-size *0.9;
+$header-size-6: $base-font-size * 0.8;
+
+// Header size
+h1{font-size: $header-size-1;}
+h2{font-size: $header-size-2;}
+h3{font-size: $header-size-3;}
+h4{font-size: $header-size-4;}
+h5{font-size: $header-size-5;}
+h6{font-size: $header-size-6;}
+
+
+  /////////////////
  // Font-weight //
 /////////////////
 
 $font-weight-light: 300;
 $font-weight-normal: 400;
-$font-weight-mediume: 500;
+$font-weight-medium: 500;
 $font-weight-bold: 600;
 $font-weight-exbold: 700;
 $font-weight-header:$font-weight-bold;
+
+// Header font weight 
+h1, h2, h3, h4, h5, h6{font-weight: $font-weight-header;}
+
+
 

@@ -2,7 +2,7 @@
 
 OnLoad(function()
 {
-    // Find all the elements that contane the tag 
+    // Find all the elements that contain the tag 
     var menuExpanders = document.querySelectorAll("[href='#topmenu']");
 
     ForEach(menuExpanders, function(item)
